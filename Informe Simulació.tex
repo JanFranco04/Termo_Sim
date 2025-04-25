@@ -1,0 +1,130 @@
+\documentclass{article}
+\usepackage[catalan]{babel}
+\usepackage{graphicx}
+\usepackage{moresize}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{mathtools}
+\usepackage{esint}
+\usepackage{epstopdf}
+\usepackage{mhchem}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage[labelfont=bf, font=footnotesize, textfont=sl, skip=3pt, width=0.95\textwidth]{caption}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=white,      
+	urlcolor=cyan,
+	pdftitle={Overleaf Example},
+	pdfpagemode=FullScreen,
+}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{imakeidx}
+\usepackage{fancyhdr}
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\pagestyle{fancy}
+\lhead[Universitat Autònoma de Barcelona]{Universitat Autònoma de Barcelona}
+\rhead[Termodinàmica i Mecànica Estadística]{Termodinàmica i Mecànica Estadística}
+\newcommand*{\mybox}[1]{\framebox{#1}}
+
+\thispagestyle{empty}
+
+\begin{document}
+	
+	\begin{titlepage}
+		\begin{center}
+			\vspace*{1cm}
+			
+			\Huge
+			\textbf{Treball de Simulació} \\
+			
+			\vspace{0.5cm}
+			
+			
+			
+			
+			\vspace{1.5cm}
+			\Large
+			Àxel Cortés; 1566285 \\
+			Joan Vidal Escobosa; 1667487 \\
+			Jan Franco; 1628517 \\ 
+			
+			
+			\vfill
+			\LARGE
+			
+			\vspace{0.8cm}
+			
+			\Large
+			Curs 2024-25 
+		\end{center} 
+	\end{titlepage}
+	
+	\setcounter{page}{1}
+	
+	\section{Creació d'una simulació de Monte Carlo pròpia}
+	En aquest apartat hem generat un codi, que podem trobar a l'Annex, que simula un gas ideal en col·lectivitat canònica de d dimensions (d = 1,2,3) amb tècniques de Monte Carlo.
+	\\
+	El codi inicialitza velocitats de partícules segons una distribució de Maxwell-Boltzmann. A cada pas, tria una partícula aleatòriament i proposa un petit canvi en la seva velocitat. Després, decideix si acceptar aquest canvi segons el criteri de Metropolis, el qual accepta tots els canvis energèticament favorables i els energèticament desfavorables amb una probabilitat de $e^{\frac{-\Delta E}{k_BT}}$. Per últim, cada 500 passos mesura l'energia total del sistema per a poder-ne trobar la capacitat calorífica.
+	\\
+	Aquesta la podem trobar amb la següent fórmula:
+	
+	\begin{equation}
+		C_V = \frac{\langle E^2 \rangle - \langle E \rangle^2}{k_B T^2}
+		\label{eq. c_v}
+	\end{equation}
+	
+	\noindent L'energia mitjana del sistema i el valor mitjà del seu quadrat són, respectivament:
+	
+	\begin{gather}
+		\langle E \rangle = \sum_i E_i \cdot P(E_i)
+		= \frac{1}{Z} \sum_i E_i e^{-E_i / (k_B T)}
+		\\
+		\langle E^2 \rangle = \sum_i E_i^2 \cdot P(E_i)
+		= \frac{1}{Z} \sum_i E_i^2 e^{-E_i / (k_B T)}
+	\end{gather}
+	
+	\noindent Considerant el sistema en el límit termodinàmic, ($\langle E \rangle  \, = \, U$) i tenint en compte que la capacitat calorífica a volum constant es defineix com:
+	
+	\begin{equation}
+		C_V = \left( \frac{\partial \langle E \rangle}{\partial T} \right)_V
+	\end{equation}
+	
+	\noindent Podem realitzar aquesta derivada per acabar arribant a l'Eq. \eqref{eq. c_v}.
+	\\
+	Fixem-nos, per tant, que les fluctuacions d'energia estan directament relacionades amb la capacitat calorífica del sistema.
+	\\
+	
+	\noindent Hem fet córrer la simulació diverses vegades, i utilitzant els valors de $10^4$ partícules, fent $5 \cdot 10^6$ iteracions i una $T =  300 \, K$, no hem obtingut en cap cas una diferència major al $15 \, \%$ entre els valors de $C_V$ simulats i els teòrics, donats per $C_V = \frac{d}{2}Nk_B$. La Taula \ref{taula_comparacio} mostra un exemple per cada dimensió de valors obtinguts en la simulació.
+	
+	\begin{table}[h!]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			\textbf{Dimensió} & \textbf{$C_V$ teòrica (J/K)} & \textbf{$C_V$ simulada (J/K)} & \textbf{Diferència relativa (\%)} \\ \hline
+			1 & $6.900 \times 10^{-20}$ & $6.188 \times 10^{-20}$ & 10.316 \\ \hline
+			2 & $1.380 \times 10^{-19}$ & $1.252 \times 10^{-19}$ & 9.299 \\ \hline
+			3 & $2.070 \times 10^{-19}$ & $2.208 \times 10^{-19}$ & 6.665 \\ \hline
+		\end{tabular}
+		\caption{Exemples de capacitats calorífiques simulades i valors teòrics per a d=1,2 i 3 utilitzant $10^4$ partícules, fent $5 \cdot 10^6$ iteracions i a una T = 300 K}
+		\label{taula_comparacio}
+	\end{table}
+	
+	Per últim, hem graficat a la Figura \ref{figura_evolucio_C_V}  com evoluciona el valor calculat de $C_V$, per d=3, en funció del nombre d'iteracions realitzades, per veure si aquest acaba estabilitzant-se. Veiem que el valor oscil·la en un rang reduït de valors, pel que la seva diferència respecte al valor teòric no és deguda a que es necessitin més iteracions. De fet, si volguéssim més precisió hauríem d'augmentar el nombre de partícules, acostant-nos més així al límit termodinàmic que hem considerat en els nostres càlculs.
+	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{"C:/Users/axelc/Desktop/Termodinàmica i Mecànica Estadística/Entregues/Treball Simulació/C_V_d_3_v2"}
+	\caption{Evolució de $C_V$ en funció del nombre d'iteracions realitzades, utilitzant utilitzant $10^4$ partícules, fent $10^7$ iteracions i a una T = 300 K}
+	\label{figura_evolucio_C_V}
+\end{figure}
+	
+	
+\end{document}
