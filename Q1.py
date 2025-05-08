@@ -1,25 +1,22 @@
-from vpython import *
-import numpy as np
 
+#Programa INICIAL, SENSE modifiacions. Només l'usem per variar Natoms i veure el temps mig de col·lisió
+
+from vpython import *
 
 win = 500
 
-Natoms = 200  # change this to have more or fewer atoms
-collision_times = []
-last_collision_time = 0
-running = True  # Ho usarem per parar la simulació 
-
-# Necessitem alguns paràmetres per al termostat d'Andersen
-nu = 1000  # Freqüencia d col·lisió
-
-
-L = 1 # container is a cube L on a side
-gray = color.gray(0.7) # color of edges of container
-mass = 4E-3/6E23 # helium mass
-Ratom = 0.03 # wildly exaggerated size of helium atom
-k = 1.4E-23 # Boltzmann constant
-T = 300 # around room temperature
+Natoms = 500  
+L=1
+gray = color.gray(0.7) 
+mass = 4E-3/6E23 
+Ratom = 0.03 
+k = 1.4E-23
+T = 300 
 dt = 1E-5
+
+t = 0
+num_col = 0
+t_total = 0
 
 animation = canvas( width=win, height=win, align='left')
 animation.range = L
@@ -31,7 +28,6 @@ s = """  Theoretical and averaged speed distributions (meters/sec).
   
 """
 animation.caption = s
-
 
 d = L/2+Ratom
 r = 0.005
@@ -51,7 +47,7 @@ vert4.append([vector(d,-d,-d), vector(d,d,-d)])
 Atoms = []
 p = []
 apos = []
-pavg = sqrt(2*mass*1.5*k*T) # average kinetic energy p**2/(2mass) = (3/2)kT
+pavg = sqrt(2*mass*1.5*k*T) 
     
 for i in range(Natoms):
     x = L*random()-L/2
@@ -68,10 +64,10 @@ for i in range(Natoms):
     pz = pavg*cos(theta)
     p.append(vector(px,py,pz))
 
-deltav = 100 # binning for v histogram
+deltav = 100 
 
 def barx(v):
-    return int(v/deltav) # index into bars array
+    return int(v/deltav) 
 
 nhisto = int(4500/deltav)
 histo = []
@@ -80,26 +76,24 @@ histo[barx(pavg/mass)] = Natoms
 
 gg = graph( width=win, height=0.4*win, xmax=3000, align='left',
     xtitle='speed, m/s', ytitle='Number of atoms', ymax=Natoms*deltav/1000)
-collision_graph = graph(width=300, height=300, title="Average Collision Time", xtitle="Time Steps", ytitle="Avg Collision Time (s)")
-avg_collision_curve = gcurve(color=color.green)
 
 theory = gcurve( color=color.blue, width=2 )
 dv = 10
-for v in range(0,3001+dv,dv):  # theoretical prediction
+for v in range(0,3001+dv,dv): 
     theory.plot( v, (deltav/dv)*Natoms*4*pi*((mass/(2*pi*k*T))**1.5) *exp(-0.5*mass*(v**2)/(k*T))*(v**2)*dv )
 
 accum = []
 for i in range(int(3000/deltav)): accum.append([deltav*(i+.5),0])
 vdist = gvbars(color=color.red, delta=deltav )
 
-def interchange(v1, v2):  # remove from v1 bar, add to v2 bar
+def interchange(v1, v2):  
     barx1 = barx(v1)
     barx2 = barx(v2)
     if barx1 == barx2:  return
     if barx1 >= len(histo) or barx2 >= len(histo): return
     histo[barx1] -= 1
     histo[barx2] += 1
-   
+    
 def checkCollisions():
     hitlist = []
     r2 = 2*Ratom
@@ -109,48 +103,35 @@ def checkCollisions():
         for j in range(i) :
             aj = apos[j]
             dr = ai - aj
-            if mag2(dr) < r2: hitlist.append([i,j])
+            if mag2(dr) < r2: 
+                hitlist.append([i,j])
     return hitlist
 
-def track_collision_time():
-    global last_collision_time
-    current_time = clock()
-    if last_collision_time > 0:
-        collision_times.append(current_time - last_collision_time)
-    last_collision_time = current_time
 
-def stop_simulation():
-    global running
-    running = False
-    if collision_times:
-        total_avg_collision_time = sum(collision_times) / len(collision_times)
-        print(f"Final Average Collision Time: {total_avg_collision_time:.5e} s")
+nhisto = 0 
 
-# Bind the stop function to a keyboard event
-scene.bind('keydown', stop_simulation)
-
-nhisto = 0 # number of histogram snapshots to average
-
-while running:
+while True:
+    if t>0.01: 
+        break
+    t += dt
     rate(300)
-    # Accumulate and average histogram snapshots
     for i in range(len(accum)): accum[i][1] = (nhisto*accum[i][1] + histo[i])/(nhisto+1)
     if nhisto % 10 == 0:
         vdist.data = accum
     nhisto += 1
+    if nhisto % 100 == 0 and num_col > 0:
+        tau_mitja = t / num_col
+        print(f"Temps total transcorregut: {t:.4f} s | Nombre de col·lisions: {num_col}")
+        print(f"Temps mig entre col·lisions: {tau_mitja:.6e} s")
+    
 
-    # Update all positions
     for i in range(Natoms): Atoms[i].pos = apos[i] = apos[i] + (p[i]/mass)*dt
     
-    # Check for collisions
+
     hitlist = checkCollisions()
-    avg_collision_time_list=[]
+    num_col += len(hitlist)/2
 
-    # Compute and display average collision time
-
-    # If any collisions took place, update momenta of the two atoms
     for ij in hitlist:
-        track_collision_time()
         i = ij[0]
         j = ij[1]
         ptot = p[i]+p[j]
@@ -160,37 +141,30 @@ while running:
         vj = p[j]/mass
         vrel = vj-vi
         a = vrel.mag2
-        if a == 0: continue;  # exactly same velocities
+        if a == 0: continue;  
         rrel = posi-posj
-        if rrel.mag > Ratom: continue # one atom went all the way through another
+        if rrel.mag > Ratom: continue 
     
-        # theta is the angle between vrel and rrel:
-        dx = dot(rrel, vrel.hat)       # rrel.mag*cos(theta)
-        dy = cross(rrel, vrel.hat).mag # rrel.mag*sin(theta)
-        # alpha is the angle of the triangle composed of rrel, path of atom j, and a line
-        #   from the center of atom i to the center of atom j where atome j hits atom i:
+        dx = dot(rrel, vrel.hat)      
+        dy = cross(rrel, vrel.hat).mag 
         alpha = asin(dy/(2*Ratom)) 
-        d = (2*Ratom)*cos(alpha)-dx # distance traveled into the atom from first contact
-        deltat = d/vrel.mag         # time spent moving from first contact to position inside atom
+        d = (2*Ratom)*cos(alpha)-dx
+        deltat = d/vrel.mag  
         
-        posi = posi-vi*deltat # back up to contact configuration
+        posi = posi-vi*deltat
         posj = posj-vj*deltat
         mtot = 2*mass
-        pcmi = p[i]-ptot*mass/mtot # transform momenta to cm frame
+        pcmi = p[i]-ptot*mass/mtot
         pcmj = p[j]-ptot*mass/mtot
         rrel = norm(rrel)
-        pcmi = pcmi-2*pcmi.dot(rrel)*rrel # bounce in cm frame
+        pcmi = pcmi-2*pcmi.dot(rrel)*rrel 
         pcmj = pcmj-2*pcmj.dot(rrel)*rrel
-        p[i] = pcmi+ptot*mass/mtot # transform momenta back to lab frame
+        p[i] = pcmi+ptot*mass/mtot 
         p[j] = pcmj+ptot*mass/mtot
-        apos[i] = posi+(p[i]/mass)*deltat # move forward deltat in time
+        apos[i] = posi+(p[i]/mass)*deltat 
         apos[j] = posj+(p[j]/mass)*deltat
         interchange(vi.mag, p[i].mag/mass)
         interchange(vj.mag, p[j].mag/mass)
-
-    if len(collision_times) > 0 and len(collision_times) % 100 == 0:
-        avg_collision_time = sum(collision_times) / len(collision_times)
-        avg_collision_curve.plot(len(collision_times), avg_collision_time)
     
     for i in range(Natoms):
         loc = apos[i]
@@ -205,3 +179,4 @@ while running:
         if abs(loc.z) > L/2:
             if loc.z < 0: p[i].z =  abs(p[i].z)
             else: p[i].z =  -abs(p[i].z)
+
