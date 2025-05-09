@@ -87,7 +87,7 @@
 	
 	\subsection*{Q1}
 
-	El primer que cal és buscar una expressió que ens calculi el temps mig entre col·lisions a partir de les condicions del sistema. Per a lograr això buscarem primer la freqüència entre col·lisions, $Z_{col}$. Aquesta dependrà de la freqüència d'àtoms que passin per una regió de l'espai amb la mida d'un àtom. Tenim, doncs:
+	El primer que cal és buscar una expressió que ens calculi el temps mig entre col·lisions a partir de les condicions del sistema. Per a aconseguir això buscarem primer la freqüència entre col·lisions, $Z_{col}$. Aquesta dependrà de la freqüència d'àtoms que passin per una regió de l'espai amb la mida d'un àtom. Tenim, doncs:
 	$$
 	\begin{aligned}
 		Z_i & =\frac{\sqrt{2} \pi d^2\langle v_r\rangle \Delta t\left(\frac{N}{V}\right)}{\Delta t} \\
@@ -98,7 +98,7 @@
 	$$
 	\begin{gathered}
 		Z_{\text{col}}=\frac{1}{2} Z_i\left(\frac{N}{V}\right) \\
-		Z_{\text{col}}=\frac{\sqrt{2}}{2} \pi d^2\langle c\rangle\left(\frac{N}{V}\right)^2
+		Z_{\text{col}}=\frac{\sqrt{2}}{2} \pi d^2\langle v_r\rangle\left(\frac{N}{V}\right)^2
 	\end{gathered}
 	$$
 	Com a velocitat mitja trobem un valor de $\boxed{\langle v_r \rangle = 1257.84}$. Usant $d=R_{\text{àtom}} = 0.03$, $N=500$ i $V=1$ m$^3$ trobem un valor teòric del temps mig entre col·lisions de: 
@@ -136,7 +136,7 @@
 	
 	\subsection*{Q4}
 	Un procés de Stirling consta de dos processos isocòrics i dos processos isotèrmics, com veiem en la figura \ref{gurururur}.
-	Com ja hem vist a la qüestió anterior, podem simular computacionalment un termostat i un èmbol mòbil que expandeix el gas a temperatures altes. Similarment, per l'altre procés isotèrmic, es comprimeix el gas a una temperatura més baixa però la simulació es essencialment la mateixa. Consta d'un termostat que reinicia la energia cinètica de les esferes dures per simular una constància en la temperatura i un èmbol mòbil que representi el canvi de volum.\\
+	Com ja hem vist a la qüestió anterior, podem simular computacionalment un termostat i un èmbol mòbil que expandeix el gas a temperatures altes. Similarment, per l'altre procés isotèrmic, es comprimeix el gas a una temperatura més baixa però la simulació és essencialment la mateixa. Consta d'un termostat que reinicia la energia cinètica de les esferes dures per simular una constància en la temperatura i un èmbol mòbil que representi el canvi de volum.\\
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.5\linewidth]{Ciclo_de_Stirling_pV.png}
@@ -147,11 +147,11 @@
 	
 
 	
-	\par D'aquesta manera hauriem de simular com el l'exercici dos els processos $1\to 4$ i $2 \to 3$; i hauriem de simular com en l'exercici tres els processos $1\to2$ i $3\to4$. Per trobar el rendiments només ens cal comparar la calor que surt en funció de la que entra (la $Q_0$ és una calor en teoria constant, que no va donant ni fent pedre calor al sistema al llarg d'un cicle). Per a lograr això operem de la següent manera: 
+	\par D'aquesta manera hauriem de simular com en l'exercici dos els processos $1\to 4$ i $2 \to 3$; i hauriem de simular com en l'exercici tres els processos $1\to2$ i $3\to4$. Per trobar el rendiments només ens cal comparar la calor que surt en funció de la que entra (la $Q_0$ és una calor en teoria constant, que no va donant ni fent pedre calor al sistema al llarg d'un cicle). Per a aconseguir això operem de la següent manera: 
 	$$
 	\eta =\frac{Q_A - Q_B}{Q_A}=\frac{W}{Q_A}
 	$$
-	Per a trobar $W$, o sigui, el treball que fa la màquina només ens cal usar els resultats d'estructura de la termodinàmica.  Tenim: $W = \int_{V_1}^{V_2} pdV$. Computacionalment es pot trobar fent el càlcul $V_{i}-V_{i-1}$ on $i$ marca l'índex d'un bucle de molts passos, com més millor. Els valors del volum per a cada punt els podem calcular amb la llei dels gasos i multiplicant per el valor $p_{i}$ i sumant tots els resultats tindrem $W$. Finalment el podem comparar amb el cas ideal en el qual el motor és una màquina de Carnot. En aquestes circumstàncies el rendiment serà: 
+	Per a trobar $W$, o sigui, el treball que fa la màquina, només ens cal usar els resultats d'Estructura de la Termodinàmica.  Tenim: $W = \int_{V_1}^{V_2} pdV$. Computacionalment es pot trobar fent el càlcul $V_{i}-V_{i-1}$ on $i$ marca l'índex d'un bucle de molts passos, com més millor. Els valors del volum per a cada punt els podem calcular amb la llei dels gasos i multiplicant per el valor $p_{i}$ i sumant tots els resultats tindrem $W$. Finalment el podem comparar amb el cas ideal en el qual el motor és una màquina de Carnot. En aquestes circumstàncies el rendiment serà: 
 	$$
 	\eta = 1- \frac{T_B}{T_A}
 	$$ 
@@ -159,7 +159,7 @@
 	
 	\subsection*{Q5}
 	
-	Volem estudiar doncs la coexistència de fases líquides i gasoses al voltant de la temperatura crítica ($T_c$). Recuperant que les densitats depenen de la temperatura;
+	Volem estudiar la coexistència de fases líquides i gasoses al voltant de la temperatura crítica ($T_c$). Recuperant que les densitats depenen de la temperatura;
 	\begin{equation} \label{bambi}
 		\rho_l-\rho_g = A\left( 1-\frac{T}{T_C}\right)^\beta
 	\end{equation}
@@ -176,7 +176,7 @@
 	\\
 	\\
 	
-	Per l'estudi dels paràmetres $\beta$ i A estudiem diferents temperatures i acomodant l'expressió \ref{bambi} fem una regressió lineal (veure figura \ref{1}.
+	Per l'estudi dels paràmetres $\beta$ i A estudiem diferents temperatures i acomodant l'expressió \ref{bambi} fem una regressió lineal (veure figura \ref{1}).
 	
 	\begin{equation}
 		\ln(\rho_l-\rho_g)=\beta \ln\left(1-\frac{T}{T_c}\right)+ \ln A
@@ -196,7 +196,7 @@
 	
 	
 	\section{Creació d'una simulació de Monte Carlo pròpia}
-	\subsection*{Q6, 7, 8}
+	\subsection*{Q6, Q7 i Q8}
 	En aquest apartat hem generat un codi, que podem trobar a l'Annex, que simula un gas ideal en col·lectivitat canònica de d dimensions (d = 1,2,3) amb tècniques de Monte Carlo.
 	\\
 	El codi inicialitza velocitats de partícules segons una distribució de Maxwell-Boltzmann. A cada pas, tria una partícula aleatòriament i proposa un petit canvi en la seva velocitat. Després, decideix si acceptar aquest canvi segons el criteri de Metropolis, el qual accepta tots els canvis energèticament favorables i els energèticament desfavorables amb una probabilitat de $e^{\frac{-\Delta E}{k_BT}}$. Per últim, cada 500 passos mesura l'energia total del sistema per a poder-ne trobar la capacitat calorífica.
@@ -246,12 +246,18 @@
 	
 	Per últim, hem graficat a la Figura \ref{figura_evolucio_C_V}  com evoluciona el valor calculat de $C_V$, per d=3, en funció del nombre d'iteracions realitzades, per veure si aquest acaba estabilitzant-se. Veiem que el valor oscil·la en un rang reduït de valors, pel que la seva diferència respecte al valor teòric no és deguda a que es necessitin més iteracions. De fet, si volguéssim més precisió hauríem d'augmentar el nombre de partícules, acostant-nos més així al límit termodinàmic que hem considerat en els nostres càlculs. 
 	
-\begin{figure}
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.7\linewidth]{MonteCarlo.png}
 	\caption{Evolució de $C_V$ en funció del nombre d'iteracions realitzades, utilitzant utilitzant $10^4$ partícules, fent $10^7$ iteracions i a una T = 300 K}
 	\label{figura_evolucio_C_V}
 \end{figure}
+
+\newpage
+
+\section*{Annex}
+Podeu descarregar els diferents codis Python utilitzats des d'aquest enllaç: \\
+\href{https://drive.google.com/drive/folders/15ynOzz0lKhWNOVCDJGllM2V2zCnDKDyw}{Descarregar codi Python}
 	
 	
 \end{document}

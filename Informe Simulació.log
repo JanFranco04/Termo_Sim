@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.29)  8 MAY 2025 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  9 MAY 2025 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,9 @@ entering extended mode
 (Informe Simulació.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count187
@@ -23,26 +23,25 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/01/07 v24.1 The Babel package
 \babel@savecnt=\count195
 \U@D=\dimen141
 \l@unhyphenated=\language79
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.d
-ef)
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count196
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/babel-catalan\cata
-lan.ldf
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/babel-catalan\catalan.l
+df
 Language: catalan 2005/03/29 v2.2p Catalan support from the babel system
 Package babel Info: Making " an active character on input line 91.
 Warning: You are using encoding OT1 instead of T1.
@@ -51,50 +50,43 @@ Some word breaks will not be found.
 \rightllkern=\dimen143
 \raiselldim=\dimen144
 ))
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/ca\
-babel-catalan.tex
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/ca\babel
+-catalan.tex
 Package babel Info: Importing font and identification data for catalan
 (babel)             from babel-ca.ini. Reported on input line 11.
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.st
-y
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graph
-ics.cfg
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdfte
-x.def
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen145
 \Gin@req@width=\dimen146
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/moresize\moresize.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/moresize\moresize.sty
 Package: moresize 1999/07/26 v1.9 (more font sizes)
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.s
-ty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks18
 \symAMSa=\mathgroup4
@@ -102,13 +94,10 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.st
-y
+)) (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.s
-ty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen147
 \captionmargin=\dimen148
@@ -123,35 +112,30 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count197
 \c@continuedfloat=\count198
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption
-.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count199
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count266
-)
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.st
-y
+) (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.st
-y
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen155
 ))
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen156
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count267
@@ -202,8 +186,7 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.st
-y
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen164
 \WF@size=\dimen165
 \c@WF@wrappedlines=\count279
@@ -211,17 +194,14 @@ y
 \WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color
-.cfg
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor
-.ltx)
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -232,11 +212,9 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtool
-s.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
-
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count280
 \calc@Bcount=\count281
@@ -249,8 +227,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count282
 \calc@Cskip=\skip55
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count283
@@ -264,24 +241,22 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \l_MT_below_shortintertext_sep=\dimen174
 \xmathstrut@box=\box54
 \xmathstrut@dim=\dimen175
-)
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/esint\esint.sty
+) (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/esint\esint.sty
 Package: esint 
 \symlargesymbolsA=\mathgroup6
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-v2
-.sty
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-v2.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2024-01-04 L3 programming layer (loader) 
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backen
-d-pdftex.def
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count284
 \l__pdf_internal_box=\box55
 ))
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\
-xparse.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
 Package: xparse 2023-10-10 L3 Experimental document command parser
 )
 
@@ -289,7 +264,7 @@ LaTeX Warning: You have requested package `siunitx-v2',
                but the package provides `siunitx'.
 
 Package: siunitx 2021-04-17 v2.8e A comprehensive (SI) units package
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen176
 \ar@mcellbox=\box56
@@ -299,8 +274,8 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \backup@length=\skip58
 \ar@cellbox=\box57
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2
-e\l3keys2e.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
 Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box58
@@ -344,51 +319,45 @@ Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_number_align_skip=\skip61
 \l__siunitx_table_text_align_skip=\skip62
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/translator\transla
-tor.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 ))
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epsto
-pdf.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.s
+ty
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwar
-err.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+) (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvd
-efinekeys.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ))
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoption
-s.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkey
-s.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdfte
-xcmds.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epsto
-pdf-base.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -397,15 +366,13 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-
-sys.cfg
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)))
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/mhchem\mhchem.sty
+))) (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/mhchem\mhchem.sty
 Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/chemgreek\chemgree
-k.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/chemgreek\chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
 \l__chemgreek_tmpa_int=\count302
@@ -436,58 +403,46 @@ Package mhchem Warning: You did not specify a 'version' option for the mhchem
 (mhchem)                different output with the same input in future versions
 .
 
-)
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.
-sty
+) (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 \everycr=\toks26
 \minrowclearance=\skip73
 \rownum=\count306
-)
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.
-sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+) (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip74
 \multirow@cntb=\count307
 \multirow@dima=\skip75
 \bigstrutjot=\dimen194
-)
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.
-sty
+) (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfesc
-ape.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.st
-y
+) (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltx
-macro.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.st
-y
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.s
-ty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\g
-ettitlestring.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count308
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count309
 )
@@ -495,19 +450,17 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \Hy@linkcounter=\count310
 \Hy@pagecounter=\count311
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.de
-f
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count312
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -520,19 +473,19 @@ Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4448.
 \c@Hy@tempcnt=\count313
- (C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4786.
 \XeTeXLinkMargin=\dimen196
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.st
-y
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigin
-tcalc.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -547,8 +500,7 @@ Package hyperref Info: Link coloring OFF on input line 6085.
 Package hyperref Info: Link coloring with OCG OFF on input line 6090.
 Package hyperref Info: PDF/A mode OFF on input line 6095.
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -557,13 +509,10 @@ package with kernel methods
 \c@Hfootnote=\count317
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.d
-ef
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx
-.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
@@ -571,12 +520,12 @@ with kernel methods
 \Fld@listcount=\count318
 \c@bookmark@seq@number=\count319
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rer
-unfilecheck.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\un
-iquecounter.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -586,39 +535,30 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 27.
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup7
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/imakeidx\imakeidx.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/imakeidx\imakeidx.sty
 Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
 nous mode
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.st
-y
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.
-tex
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils
-.tex
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks27
 \XKV@tempa@toks=\toks28
 )
 \XKV@depth=\count320
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.st
-y
+)) (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.s
-ty
+) (C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count321
 \mult@box=\box65
@@ -688,10 +628,9 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \colbreak@box=\box110
 \mc@col@check@num=\count330
 ))
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.
-sty
-Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and foote
-rs
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2024/11/20 v4.4 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip79
 \f@nch@O@elh=\skip80
 \f@nch@O@erh=\skip81
@@ -702,11 +641,10 @@ rs
 \f@nch@O@olf=\skip86
 \f@nch@O@orf=\skip87
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.
-sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count331
@@ -722,8 +660,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen271
 \Gm@dimlist=\toks29
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.
-cfg)) (Informe Simulació.aux)
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(Informe Simulació.aux)
 \openout1 = `"Informe Simulació.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -747,8 +685,8 @@ LaTeX Font Info:    ... okay on input line 40.
 LaTeX Info: Redefining \l on input line 40.
 LaTeX Info: Redefining \L on input line 40.
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-p
-df.mkii
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count334
 \scratchdimen=\dimen272
@@ -767,23 +705,21 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-ab
-breviations.cfg
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-abbrevi
+ations.cfg
 File: siunitx-abbreviations.cfg 2021-04-17 v2.8e siunitx: Abbreviated units
 )
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/translator\transla
-tor-basic-dictionary-English.dict
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+asic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
 
 Package chemgreek Info: Activating mapping `default' on line 40.
 
 Package hyperref Info: Link coloring ON on input line 40.
- (Informe Simulació.out)
-(Informe Simulació.out)
+ (Informe Simulació.out) (Informe Simulació.out)
 \@outlinefile=\write3
 \openout3 = `"Informe Simulació.out"'.
-
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -821,29 +757,30 @@ Package hyperref Info: Link coloring ON on input line 40.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
 
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+esint on input line 4
 0.
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
 File: uesint.fd 
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 40
 .
 
-(C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+(C:\Users\axelc\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+)
+[1
 
-{C:/Users/Jan Franco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/axelc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -895,6 +832,9 @@ File: MonteCarlo.png Graphic file (type png)
 <use MonteCarlo.png>
 Package pdftex.def Info: MonteCarlo.png  used on input line 251.
 (pdftex.def)             Requested size: 303.53267pt x 227.66052pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [5] [6] (Informe Simulació.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -904,44 +844,43 @@ Package rerunfilecheck Info: File `"Informe Simulació".out' has not changed.
 (rerunfilecheck)             Checksum: 4A16016E8F75AD791ABEF83675D586E1;953.
  ) 
 Here is how much of TeX's memory you used:
- 18264 strings out of 474486
- 335541 string characters out of 5741358
+ 18267 strings out of 474486
+ 334221 string characters out of 5743755
  1942542 words of memory out of 5000000
- 40249 multiletter control sequences out of 15000+600000
+ 40251 multiletter control sequences out of 15000+600000
  570132 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,13n,79p,1048b,876s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Jan Franco\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi60
-0\esint10.pk> <C:\Users\Jan Franco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
-n/ec/dpi600\tcrm1000.pk> <C:\Users\Jan Franco\AppData\Local\MiKTeX\fonts/pk/ljf
-our/jknappen/ec/dpi600\tcbx1440.pk><C:/Users/Jan Franco/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Jan Franco/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jan Fr
-anco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:
-/Users/Jan Franco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><C:/Users/Jan Franco/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb><C:/Users/Jan Franco/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Jan Franco/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Jan Franco/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Jan F
-ranco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
-:/Users/Jan Franco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Users/Jan Franco/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb><C:/Users/Jan Franco/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jan Franco/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Jan Franco/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Jan Fran
-co/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
-ers/Jan Franco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-8.pfb><C:/Users/Jan Franco/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsl8.pfb><C:/Users/Jan Franco/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jan Franco/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Jan Franco/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Jan Franco
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Informe Simulació.pdf" (7 pages, 545010 bytes).
+ <C:\Users\axelc\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\esi
+nt10.pk> <C:\Users\axelc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1000.pk> <C:\Users\axelc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcbx1440.pk><C:/Users/axelc/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><C:/Users/axelc/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/axelc/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/axelc/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/axelc/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/axelc
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Use
+rs/axelc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+><C:/Users/axelc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb><C:/Users/axelc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb><C:/Users/axelc/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/axelc/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/axelc/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/axelc/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/axelc/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/axelc/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/axelc/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/
+axelc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl8.pfb><C
+:/Users/axelc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/axelc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmsy5.pfb><C:/Users/axelc/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb><C:/Users/axelc/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Informe Simulació.pdf" (7 pages, 545713 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
