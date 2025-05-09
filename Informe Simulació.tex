@@ -81,7 +81,6 @@
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.7\linewidth]{Interfaç.png}
-		\caption{Evolució de $C_V$ en funció del nombre d'iteracions realitzades, utilitzant utilitzant $10^4$ partícules, fent $10^7$ iteracions i a una T = 300 K}
 		\label{gugugu}
 	\end{figure}
 	
@@ -126,13 +125,22 @@
 	\caption{Representació del la pressió front la temperatura. Corroborem un comportament ideal del sistema tot i que veiem que els valors experimentals fluctuen força i tenen un desfasament que es fa constant al augmentar una mica la temepratura del sistema.}
 	\label{labe}
 	\end{figure}
-	Podem explicar les fluctuacions que té el valor experimental tenint en compte que cada modificació de la temperatura del bany triga en arribar al sistema i, per tant, en variar la pressió d'aquest. És a dir, no estem esperant a l'equilibri tèrmic. Una forma de solventar això és fer una gràfica de la pressió en funció de la temperatura real, però mantenir la graficació de la pressió teòrica amb la temperatura del bany. Al fer això obtenim una aproximació molt més bona (figura \ref{4}). Per tant, podem atribuir l'error a la falta de coordinació entre les temperatures que s'atribueixen al sistema. 
+	Podem explicar les fluctuacions que té el valor experimental tenint en compte que cada modificació de la temperatura del bany triga en arribar al sistema i, per tant, en variar la pressió d'aquest. És a dir, no estem esperant a l'equilibri tèrmic. Una forma de solventar això és fer una gràfica de la pressió en funció de la temperatura real, però mantenir la graficació de la pressió teòrica amb la temperatura del bany. Al fer això obtenim una aproximació molt més bona (figura \ref{4}), que comença a diverguir quan la temperatura és molt alta. Cal tenir en compte que per a condicions extremes el gas no es comportarà de forma ideal, ja que en la llei dels gasos ideals es suposa cap interacció entre molècules.
 	
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.7\linewidth]{Q2_2.png}
-		\caption{Representació de la pressió vs la temperatura. Ara agafem la temperatura de la font per a la pressió teòrica i estem representant l'experimental a partir de la temperatura real (la del sistema). }
+		\caption{Representació de la pressió vs la temperatura. Ara agafem la temperatura del sistema per a la pressió teòrica i estem representant l'experimental a partir de la temperatura real (la del sistema). }
 		\label{4}
+	\end{figure}
+	
+	Finalment, podem veure com evoluciona la temperatura amb el temps, veurem que a mesura que el bany augmenta de temperatura el sistema va divergint del cas ideal, amb fluctuacions cada cop més fort. 
+	
+	\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Q2_3.png}
+	\caption{Representació de la pressió vs el temps. Veiem elq ue haviem comentat, comença apropant-se al cas ideal i amb fluctuacions raonables i quan augmenta molt la temperatura divergeix molt el valor. }
+	\label{4}
 	\end{figure}
 	
 	

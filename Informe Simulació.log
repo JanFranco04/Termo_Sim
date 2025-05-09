@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.29)  9 MAY 2025 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.29)  9 MAY 2025 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,7 +708,11 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks29
 
 (C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.
-cfg)) (Informe Simulació.aux)
+cfg)) (Informe Simulació.aux
+
+LaTeX Warning: Label `4' multiply defined.
+
+)
 \openout1 = `"Informe Simulació.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -807,6 +811,14 @@ Package hyperref Info: Link coloring ON on input line 40.
 [1
 
 {C:/Users/Jan Franco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+Package caption Warning: \label without proper reference on input line 84.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `gugugu' on page 1 undefined on input line 78.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -816,24 +828,24 @@ File: Interfaç.png Graphic file (type png)
 <use Interfaç.png>
 Package pdftex.def Info: Interfaç.png  used on input line 83.
 (pdftex.def)             Requested size: 303.53267pt x 208.19551pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
 
 (C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
 
 
 (C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+esint on input line 8
-4.
+9.
 
 (C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 84
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 89
 .
 
 (C:\Users\Jan Franco\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
@@ -843,75 +855,85 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.107 	\end{equation}
+l.106 	\end{equation}
                       [1 <./Interfaç.png>]
-<Q2.png, id=48, 462.528pt x 346.896pt>
+<Q2.png, id=43, 462.528pt x 346.896pt>
 File: Q2.png Graphic file (type png)
 <use Q2.png>
-Package pdftex.def Info: Q2.png  used on input line 125.
+Package pdftex.def Info: Q2.png  used on input line 124.
 (pdftex.def)             Requested size: 303.53267pt x 227.66052pt.
-<Q2_2.png, id=50, 462.528pt x 346.896pt>
+ [2 <./Q2.png>]
+<Q2_2.png, id=58, 462.528pt x 346.896pt>
 File: Q2_2.png Graphic file (type png)
 <use Q2_2.png>
-Package pdftex.def Info: Q2_2.png  used on input line 133.
+Package pdftex.def Info: Q2_2.png  used on input line 132.
 (pdftex.def)             Requested size: 303.53267pt x 227.66052pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2 <./Q2.png>]
-<Q3.png, id=63, 370.38374pt x 180.675pt>
+<Q2_3.png, id=59, 462.528pt x 346.896pt>
+File: Q2_3.png Graphic file (type png)
+<use Q2_3.png>
+Package pdftex.def Info: Q2_3.png  used on input line 141.
+(pdftex.def)             Requested size: 303.53267pt x 227.66052pt.
+ [3 <./Q2_2.png> <./Q2_3.png>]
+<Q3.png, id=68, 370.38374pt x 180.675pt>
 File: Q3.png Graphic file (type png)
 <use Q3.png>
-Package pdftex.def Info: Q3.png  used on input line 144.
+Package pdftex.def Info: Q3.png  used on input line 152.
 (pdftex.def)             Requested size: 303.53267pt x 148.06622pt.
- [3 <./Q2_2.png> <./Q3.png>]
-<Ciclo_de_Stirling_pV.png, id=73, 616.704pt x 491.436pt>
+<Ciclo_de_Stirling_pV.png, id=70, 616.704pt x 491.436pt>
 File: Ciclo_de_Stirling_pV.png Graphic file (type png)
 <use Ciclo_de_Stirling_pV.png>
-Package pdftex.def Info: Ciclo_de_Stirling_pV.png  used on input line 158.
+Package pdftex.def Info: Ciclo_de_Stirling_pV.png  used on input line 166.
 (pdftex.def)             Requested size: 216.81pt x 172.77003pt.
- [4 <./Ciclo_de_Stirling_pV.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 188--194
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--194
-
- []
-
-<regresionq5.png, id=85, 508.0581pt x 327.3831pt>
-File: regresionq5.png Graphic file (type png)
-<use regresionq5.png>
-Package pdftex.def Info: regresionq5.png  used on input line 207.
-(pdftex.def)             Requested size: 303.53267pt x 195.59712pt.
-[5 <./regresionq5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 243--247
-
- []
-
-<MonteCarlo.png, id=99, 462.528pt x 346.896pt>
-File: MonteCarlo.png Graphic file (type png)
-<use MonteCarlo.png>
-Package pdftex.def Info: MonteCarlo.png  used on input line 267.
-(pdftex.def)             Requested size: 303.53267pt x 227.66052pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6] [7 <./MonteCarlo.png>] (Informe Simulació.aux)
+[4 <./Q3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 196--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--202
+
+ []
+
+<regresionq5.png, id=84, 508.0581pt x 327.3831pt>
+File: regresionq5.png Graphic file (type png)
+<use regresionq5.png>
+Package pdftex.def Info: regresionq5.png  used on input line 215.
+(pdftex.def)             Requested size: 303.53267pt x 195.59712pt.
+[5 <./Ciclo_de_Stirling_pV.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 251--255
+
+ []
+
+[6 <./regresionq5.png>]
+<MonteCarlo.png, id=110, 462.528pt x 346.896pt>
+File: MonteCarlo.png Graphic file (type png)
+<use MonteCarlo.png>
+Package pdftex.def Info: MonteCarlo.png  used on input line 275.
+(pdftex.def)             Requested size: 303.53267pt x 227.66052pt.
+ [7 <./MonteCarlo.png>] [8] (Informe Simulació.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `"Informe Simulació".out' has not changed.
 (rerunfilecheck)             Checksum: 4A16016E8F75AD791ABEF83675D586E1;953.
  ) 
 Here is how much of TeX's memory you used:
- 19803 strings out of 474486
- 389526 string characters out of 5741358
- 1942542 words of memory out of 5000000
- 41790 multiletter control sequences out of 15000+600000
+ 19812 strings out of 474486
+ 389653 string characters out of 5741358
+ 1938542 words of memory out of 5000000
+ 41797 multiletter control sequences out of 15000+600000
  567787 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,13n,80p,1048b,1067s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -943,9 +965,9 @@ e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jan Franco/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Jan Franco/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Jan Franco
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Informe Simulació.pdf" (8 pages, 613087 bytes).
+Output written on "Informe Simulació.pdf" (9 pages, 654153 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 60 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
