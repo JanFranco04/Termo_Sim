@@ -118,6 +118,22 @@
 	
 	\subsection*{Q2}
 	
+	Per aquesta part només hem de modificar el codi per a tenir un gas d'esferes dures amb una pressió i temperatura variables. Mentres que el volum ha de romandre constant. Implementant una variació de temperatura d'un bany tèrmic del sistema cal que estudiem com divergeix la pressió respecte la teòrica (gas ideal). Podem trobar una representació gràfica a la figura \ref{labe}
+	
+	\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Q2.png}
+	\caption{Representació del la pressió front la temperatura. Corroborem un comportament ideal del sistema tot i que veiem que els valors experimentals fluctuen força i tenen un desfasament que es fa constant al augmentar una mica la temepratura del sistema.}
+	\label{labe}
+	\end{figure}
+	Podem explicar les fluctuacions que té el valor experimental tenint en compte que cada modificació de la temperatura del bany triga en arribar al sistema i, per tant, en variar la pressió d'aquest. És a dir, no estem esperant a l'equilibri tèrmic. Una forma de solventar això és fer una gràfica de la pressió en funció de la temperatura real, però mantenir la graficació de la pressió teòrica amb la temperatura del bany. Al fer això obtenim una aproximació molt més bona (figura \ref{4}). Per tant, podem atribuir l'error a la falta de coordinació entre les temperatures que s'atribueixen al sistema. 
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\linewidth]{Q2_2.png}
+		\caption{Representació de la pressió vs la temperatura. Ara agafem la temperatura de la font per a la pressió teòrica i estem representant l'experimental a partir de la temperatura real (la del sistema). }
+		\label{4}
+	\end{figure}
 	
 	
 	\subsection*{Q3}
@@ -125,7 +141,7 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.7\linewidth]{MonteCarlo.png}
+		\includegraphics[width=0.7\linewidth]{Q3.png}
 		\caption{Representació del producte pressió per volum front el temps. Corroborem un comportament constant del sistema.}
 		\label{cacafuti}
 	\end{figure}
